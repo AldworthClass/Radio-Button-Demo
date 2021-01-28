@@ -57,6 +57,7 @@
             this.grpSaber.TabIndex = 0;
             this.grpSaber.TabStop = false;
             this.grpSaber.Text = "Choose Saber";
+            this.grpSaber.Visible = false;
             // 
             // radGreen
             // 
@@ -178,6 +179,7 @@
             this.imgSaber.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.imgSaber.TabIndex = 1;
             this.imgSaber.TabStop = false;
+            this.imgSaber.Visible = false;
             // 
             // FormRadioDemo
             // 

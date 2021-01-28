@@ -37,12 +37,14 @@ namespace Radio_Button_Demo
             if (radEnterprise.Checked)
             {
                 lblShip.Text = "You are correct.";
+                grpSaber.Visible = true;
+                imgSaber.Visible = true;
             }
             else if (radFalcon.Checked)
             {
                 lblShip.Text = "I see you don't like science fiction.";
             }
-            else
+            else if (radTitanic.Checked)
             {
                 lblShip.Text = "Hang your head in shame.";
             }
